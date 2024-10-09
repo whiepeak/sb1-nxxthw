@@ -1,0 +1,32 @@
+.p-4 {
+  padding: 16;
+}
+
+.mb-4 {
+  margin-bottom: 16;
+}
+
+.p-2 {
+  padding: 8;
+}
+
+.border {
+  border-width: 1;
+  border-color: #ccc;
+}
+
+.rounded-lg {
+  border-radius: 8;
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-sm {
+  font-size: 14;
+}

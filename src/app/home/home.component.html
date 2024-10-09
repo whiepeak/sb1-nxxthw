@@ -1,0 +1,9 @@
+<ActionBar title="Phân tích số"></ActionBar>
+
+<StackLayout class="p-4">
+  <TextField [(ngModel)]="inputNumber" hint="Nhập dãy số" keyboardType="number" class="mb-4 p-2 border rounded-lg"></TextField>
+  <Button text="Phân tích" (tap)="analyzeNumber()" class="mb-4 bg-blue-500 text-white p-2 rounded-lg"></Button>
+  <ScrollView>
+    <Label [text]="analysis" textWrap="true" class="text-sm"></Label>
+  </ScrollView>
+</StackLayout>
